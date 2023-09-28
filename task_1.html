@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function reverse1(){
+            int reverse=0;
+        var x=document.getElementById("n").value;
+        while(x>0){
+            int a=x%10;
+            reverse=(reverse*10)+a;
+            x=x/10;
+            return reverse;
+        }
+    </script>
+</head>
+<body>
+    <p>Example x =<input type="number" id="n"/></p>
+    <p>Expected Output:</p><p class="reverse1"></p>
+</body>
+</html>
